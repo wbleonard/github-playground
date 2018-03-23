@@ -1,14 +1,3 @@
-// function to overcome decimal math
-
-function add_decimals(x,y){
-    return Math.round((x + y) * 1e12) / 1e12;
-}
-
-var num = 2/41.882;
-var n = num.toFixed(2);
-console.log(add_decimals(.01,.06));
-//  prints 0.07
-
 function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
@@ -39,5 +28,3 @@ function fight(){
 fight();
 
 console.log(hp);
-
-
